@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react"
-
-import { Link } from "react-scroll"
 import { VscCircleLargeFilled } from "react-icons/vsc"
 import { SiDwavesystems } from "react-icons/si"
 

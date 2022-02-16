@@ -1,8 +1,4 @@
 import theCamperApp from "./images/camp-app.png"
-import mapty from "./images/mapty.png"
-import forkify from "./images/forkify.png"
-import papaya from "./images/papaya.png"
-import kiqs from "./images/kiqs.png"
 import tasktrckr from "./images/tasktrckr.png"
 import elixir from "./images/elixir.png"
 
