@@ -29,7 +29,7 @@ const Nav = ({ handleThemeChange }) => {
         </i>
         <i
           onClick={() => handleThemeChange()}
-          className="dark:text-white text-clr-bg flex justify-center items-center text-2xl md:text-3xl"
+          className="dark:text-white cursor-pointer text-clr-bg flex justify-center items-center text-2xl md:text-3xl"
         >
           <button
             id="theme-toggle"
@@ -62,7 +62,7 @@ const Nav = ({ handleThemeChange }) => {
         </i>
         <span
           onClick={handleClick}
-          className={`flex justify-center my-4 text-4xl md:text-5xl font-black dark:text-white  text-clr-bg right-10 nav-icon ${
+          className={`flex justify-center cursor-pointer my-4 text-4xl md:text-5xl font-black dark:text-white  text-clr-bg right-10 nav-icon ${
             click && "active-nav-icon"
           }`}
         >

@@ -10,7 +10,7 @@ const NavLink = ({ dest, destName, handleClick }) => {
         spy={true}
         smooth={true}
         onClick={handleClick}
-        className="flex items-center h-full px-10 dark:text-white text-xl text-clr-bg "
+        className="flex items-center cursor-pointer h-full px-10 dark:text-white text-xl text-clr-bg "
       >
         {destName}
       </Link>

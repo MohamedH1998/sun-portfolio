@@ -1,6 +1,15 @@
 .hero-header {
   font-family: "Montserrat", sans-serif;
 }
+.smooth-image {
+  transition: opacity 1s;
+}
+.image-visible {
+  opacity: 1;
+}
+.image-hidden {
+  opacity: 0;
+}
 
 .self {
   margin-top: 25px;

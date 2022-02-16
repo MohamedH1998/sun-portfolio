@@ -10,7 +10,7 @@ const Portfolio = () => {
           Portfolio
         </h1>
         <hr className="w-full border-2 border-clr-skin" />
-        <div className="flex flex-wrap justify-start w-full py-10 pr-6 mt-5">
+        <div className="flex flex-wrap justify-start w-full py-10 mt-5">
           {projectsInfo.map((project, i) => (
             <Project
               key={i}

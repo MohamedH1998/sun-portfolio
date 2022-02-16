@@ -26,7 +26,7 @@ const Blogs = () => {
           musings
         </h1>
         <hr className="w-full border-2 border-clr-skin" />
-        <div className="flex flex-wrap justify-center py-10 pr-6">
+        <div className="flex flex-wrap justify-center py-10">
           {reverseOrderofBlogSnippets}
         </div>
       </div>

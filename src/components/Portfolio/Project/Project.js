@@ -3,7 +3,7 @@ import React from "react"
 const Project = ({ photo, cardTitle, cardText, liveDemo, sourceCode }) => {
   return (
     <>
-      <div className="max-w-sm clr-bg-cream-offset md:mx-4 my-4 rounded-lg border border-gray-200 dark:border-0 shadow-md dark:bg-gray-800 dark:shadow-gray-600">
+      <div className="max-w-sm bg-clr-bg-light-offset md:mx-4 my-4 rounded-lg border border-gray-200 dark:border-0 shadow-md dark:bg-clr-bg dark:shadow-clr-bg-lightest-offset dark:border-gray-700">
         <a href={liveDemo}>
           <img className="rounded-t-lg" src={photo} alt={cardTitle} />
         </a>
@@ -19,13 +19,13 @@ const Project = ({ photo, cardTitle, cardText, liveDemo, sourceCode }) => {
           <div className="flex justify-between pt-4">
             <a
               href={liveDemo}
-              className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg bg-clr-bg-offset"
+              className="inline-flex cursor-pointer items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg bg-clr-bg-offset"
             >
               live demo
             </a>
             <a
               href={sourceCode}
-              className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg bg-clr-bg-offset"
+              className="inline-flex cursor-pointer items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg bg-clr-bg-offset"
             >
               source code
             </a>

@@ -24,7 +24,7 @@ const Profile = () => {
               to="portfolio"
               spy={true}
               smooth={true}
-              className="p-3 mr-3 text-base text-right dark:text-white text-clr-bg border-2 dark:border-white border-clr-bg rounded-full"
+              className="p-3 mr-3 text-base cursor-pointer text-right dark:text-white text-clr-bg border-2 dark:border-white border-clr-bg rounded-full"
             >
               <FiChevronDown />
             </Link>

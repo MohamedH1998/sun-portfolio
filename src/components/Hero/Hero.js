@@ -8,10 +8,10 @@ import sun from "../../assets/images/sun.png"
 
 import "./Hero.css"
 const Hero = ({ checkedTheme }) => {
-  const [loaded, setLoaded] = useState("")
-  const onLoad = () => {
-    setLoaded("self")
-  }
+  const [loaded1, setLoaded1] = useState(false)
+  const [loaded2, setLoaded2] = useState(false)
+  const [loaded3, setLoaded3] = useState(false)
+  const [loaded4, setLoaded4] = useState(false)
 
   return (
     <div className="relative flex justify-center items-center w-screen">
@@ -27,7 +27,7 @@ const Hero = ({ checkedTheme }) => {
             to="about"
             spy={true}
             smooth={true}
-            className="p-3 text-base md:text-3xl dark:text-white text-clr-bg border-2 dark:border-white border-clr-bg-darker-offset rounded-full"
+            className="p-3 cursor-pointer text-base md:text-3xl dark:text-white text-clr-bg border-2 dark:border-white border-clr-bg-darker-offset rounded-full"
           >
             <FiChevronDown />
           </Link>
@@ -45,14 +45,18 @@ const Hero = ({ checkedTheme }) => {
               <div className="relative">
                 <img
                   src={sun}
-                  onLoad={onLoad}
-                  className={`slide-out-tl  absolute top-0 object-cover ${loaded} left-12 md:left-0 w-10/12 md:w-full `}
+                  onLoad={() => setLoaded1(true)}
+                  className={`slide-out-tl  absolute top-0 object-cover smooth-image image-${
+                    loaded1 ? "visible" : "hidden"
+                  } left-12 md:left-0 w-10/12 md:w-full `}
                   alt="self"
                 />
                 <img
                   src={moon}
-                  onLoad={onLoad}
-                  className={`slide-in-br absolute top-0 object-cover ${loaded} left-12 md:left-0 w-10/12 md:w-full `}
+                  onLoad={() => setLoaded2(true)}
+                  className={`slide-in-br absolute top-0 object-cover smooth-image image-${
+                    loaded2 ? "visible" : "hidden"
+                  } left-12 md:left-0 w-10/12 md:w-full `}
                   alt="self"
                 />
               </div>
@@ -61,14 +65,18 @@ const Hero = ({ checkedTheme }) => {
               <div className="relative">
                 <img
                   src={moon}
-                  onLoad={onLoad}
-                  className={`slide-out-tl  absolute top-0 object-cover ${loaded} left-12 md:left-0 w-10/12 md:w-full `}
+                  onLoad={() => setLoaded3(true)}
+                  className={`slide-out-tl  absolute top-0 object-cover smooth-image image-${
+                    loaded3 ? "visible" : "hidden"
+                  } left-12 md:left-0 w-10/12 md:w-full `}
                   alt="self"
                 />
                 <img
                   src={sun}
-                  onLoad={onLoad}
-                  className={`slide-in-br absolute top-0 object-cover ${loaded} left-12  md:left-0 w-10/12 md:w-full `}
+                  onLoad={() => setLoaded4(true)}
+                  className={`slide-in-br absolute top-0 object-cover smooth-image image-${
+                    loaded4 ? "visible" : "hidden"
+                  } left-12  md:left-0 w-10/12 md:w-full `}
                   alt="self"
                 />
               </div>
