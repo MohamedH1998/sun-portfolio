@@ -1,11 +1,7 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "react-scroll"
 
-const NavLink = ({ dest, destName }) => {
-  const [click, setClick] = useState(false)
-  const handleClick = () => {
-    setClick(!click)
-  }
+const NavLink = ({ dest, destName, handleClick }) => {
   return (
     <li className="m-10 align-middle">
       <Link

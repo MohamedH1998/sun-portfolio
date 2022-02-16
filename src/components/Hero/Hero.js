@@ -32,12 +32,13 @@ const Hero = ({ checkedTheme }) => {
           >
             <FiChevronDown />
           </Link>
+
           <p className="w-6/12 text-sm md:text-base md:text-center dark:text-clr-bg-lightest-offset text-clr-bg-darker-offset text-small py-7">
             clarity comes from engagement, not thought.
           </p>
         </div>
         <div className="relative flex items-end justify-between w-full h-[22rem]">
-          <p className="w-6/12 text-left dark:text-white text-clr-bg origin-top-left top-full left-0 -rotate-90 text-small md:text-lg">
+          <p className="w-6/12 text-right md:text-left dark:text-white text-clr-bg origin-top-left top-full left-0 -rotate-90 text-small md:text-lg">
             self-taught dev
           </p>
           <div className="absolute top-0 right-0 w-full max-w-xs">

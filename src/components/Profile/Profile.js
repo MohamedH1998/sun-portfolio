@@ -9,7 +9,7 @@ import "./Profile.css"
 const Profile = () => {
   return (
     <div className="relative flex justify-center items-start h-145 w-screen">
-      <div className="w-9/12">
+      <div className="about w-9/12">
         <h1 className="text-5xl dark:text-white text-clr-bg hero-header py-7">
           About me
         </h1>

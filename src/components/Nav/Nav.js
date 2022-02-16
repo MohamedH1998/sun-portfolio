@@ -8,7 +8,7 @@ const Nav = ({ handleThemeChange }) => {
   const [click, setClick] = useState(false)
 
   const handleClick = () => {
-    setClick(!click)
+    setClick(prev => !prev)
   }
 
   useEffect(() => {
@@ -76,10 +76,14 @@ const Nav = ({ handleThemeChange }) => {
           click ? "slide-in" : "slide-out"
         }`}
       >
-        <NavLink dest="name" destName="Home" />
-        <NavLink dest="about" destName="About" />
-        <NavLink dest="portfolio" destName="Portfolio" />
-        <NavLink dest="blogs" destName="Blogs" />
+        <NavLink handleClick={handleClick} dest="name" destName="Home" />
+        <NavLink handleClick={handleClick} dest="about" destName="About" />
+        <NavLink
+          handleClick={handleClick}
+          dest="portfolio"
+          destName="Portfolio"
+        />
+        <NavLink handleClick={handleClick} dest="blogs" destName="Blogs" />
       </ul>
     </div>
   )

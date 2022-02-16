@@ -8,7 +8,8 @@ module.exports = {
         blur: "blur(20px)"
       },
       height: {
-        145: "35rem"
+        135: "35rem",
+        145: "45rem"
       },
       animation: {
         fade: "fadeOut 5s ease-in-out"
