@@ -1,0 +1,38 @@
+module.exports = {
+  darkMode: "class",
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      backdropFilter: {
+        none: "none",
+        blur: "blur(20px)"
+      },
+      height: {
+        145: "35rem"
+      },
+      animation: {
+        fade: "fadeOut 5s ease-in-out"
+      },
+
+      // that is actual animation
+      keyframes: theme => ({
+        fadeOut: {
+          "0%": { backgroundColor: theme("colors.transparent") },
+          "100%": { backgroundColor: theme("colors.red.300") }
+        }
+      }),
+      colors: {
+        "clr-bg": "#0b0908",
+        "clr-bg-cream-offset": "#F0EDE4",
+        "clr-bg-lightest-offset": "#E1DDCE",
+        "clr-bg-light-offset": "#E1E1E1",
+        "clr-bg-offset": "#674B37",
+        "clr-bg-darker-offset": "#4C362A",
+        "clr-accent": "#595C5C",
+        "clr-accent-light": "#798688",
+        "clr-skin": "#BB7558"
+      }
+    }
+  },
+  plugins: [require("flowbite/plugin"), require("tailwindcss-filters")]
+}
