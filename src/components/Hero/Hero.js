@@ -27,7 +27,6 @@ const Hero = ({ checkedTheme }) => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-100}
             className="p-3 text-base md:text-3xl dark:text-white text-clr-bg border-2 dark:border-white border-clr-bg-darker-offset rounded-full"
           >
             <FiChevronDown />
