@@ -37,7 +37,7 @@ const Nav = ({ handleThemeChange }) => {
             className="dark:text-white text-gray-400  focus:outline-none focus:ring-4  rounded-lg text-sm p-2.5"
           >
             <svg
-              id="theme-toggle-dark-icon"
+              id="theme-toggle-light-icon"
               className="w-5 h-5 hidden"
               fill="currentColor"
               viewBox="0 0 20 20"
@@ -45,8 +45,9 @@ const Nav = ({ handleThemeChange }) => {
             >
               <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
             </svg>
+
             <svg
-              id="theme-toggle-light-icon"
+              id="theme-toggle-dark-icon"
               className="w-5 h-5 hidden"
               fill="currentColor"
               viewBox="0 0 20 20"
