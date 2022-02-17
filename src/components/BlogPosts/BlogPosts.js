@@ -2,6 +2,7 @@ import React from "react"
 import { useParams } from "react-router-dom"
 import blogSnippets from "../../assets/blogs/blogSnippets.js"
 import blogText from "../../assets/blogs/blogText.js"
+import Lost from "../Lost/Lost.js"
 
 import "./BlogPosts"
 
@@ -32,7 +33,7 @@ const BlogPosts = () => {
   const params = useParams()
   const id = params.id
   const currentBlog = blogSnippets[id]
-  return currentBlog ? renderBlog(id, currentBlog) : "messed up"
+  return currentBlog ? renderBlog(id, currentBlog) : <Lost />
 }
 
 export default BlogPosts

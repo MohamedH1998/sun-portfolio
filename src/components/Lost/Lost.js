@@ -12,8 +12,8 @@ const Lost = () => {
               src="https://flipstore.withun.link/identity/Group%201.svg"
             />
           </div>
-          <div className="mb-10 md:mb-20 text-base text-clr-bg">
-            <h1 className="font-black uppercase text-2xl lg:text-5xl text-clr-bg mb-10">
+          <div className="mb-10 md:mb-20 text-base text-clr-bg dark:text-white">
+            <h1 className="font-black uppercase text-2xl lg:text-5xl text-clr-bg mb-10 dark:text-white">
               you shouldn't be here
             </h1>
             <p className="pb-4">
