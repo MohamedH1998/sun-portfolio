@@ -6,7 +6,6 @@ import blogText from "../../assets/blogs/blogText.js"
 import "./BlogPosts"
 
 const renderBlog = (id, currentBlog) => {
-  console.log("post", id)
   return (
     <div className="relative flex flex-row justify-center items-start h-full w-screen">
       <div className="text-clr-bg dark:text-white py-6 flex flex-col w-9/12 ">
@@ -33,7 +32,6 @@ const BlogPosts = () => {
   const params = useParams()
   const id = params.id
   const currentBlog = blogSnippets[id]
-  console.log("currentBlog", currentBlog)
   return currentBlog ? renderBlog(id, currentBlog) : "messed up"
 }
 

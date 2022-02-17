@@ -5,7 +5,6 @@ import Natural from "./Natural"
 import FirstRole from "./FirstRole"
 
 const blogText = id => {
-  console.log("vibe", id)
   if (id === "0") {
     return <TurningPoint />
   } else if (id === "1") {
