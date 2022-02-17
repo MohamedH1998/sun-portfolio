@@ -13,13 +13,11 @@ import Footer from "./components/Footer/Footer"
 import { configureTheme } from "./utils"
 
 function App() {
-  const [checkedTheme, setCheckedTheme] = useState(true)
   const currentTheme = document.documentElement.classList.value
   const [bgColor, setBgColor] = useState(
     currentTheme === "dark" ? "dusk" : "dawn"
   )
   const handleThemeChange = () => {
-    setCheckedTheme(prev => !prev)
     document.documentElement.classList.value === "dark"
       ? setBgColor("dusk")
       : setBgColor("dawn")
@@ -37,7 +35,7 @@ function App() {
             element={
               <>
                 <Nav bgColor={bgColor} handleThemeChange={handleThemeChange} />
-                <Hero checkedTheme={checkedTheme} />
+                <Hero bgColor={bgColor} />
                 <Profile />
                 <Portfolio />
                 <Blogs />

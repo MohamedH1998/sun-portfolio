@@ -7,7 +7,7 @@ import moon from "../../assets/images/moon.png"
 import sun from "../../assets/images/sun.png"
 
 import "./Hero.css"
-const Hero = ({ checkedTheme }) => {
+const Hero = ({ bgColor }) => {
   const [loaded1, setLoaded1] = useState(false)
   const [loaded2, setLoaded2] = useState(false)
   const [loaded3, setLoaded3] = useState(false)
@@ -16,7 +16,7 @@ const Hero = ({ checkedTheme }) => {
   return (
     <div className="relative flex justify-center items-center w-screen">
       <div className="flex top-full flex-col md:w-9/12 items-start justify-start pl-10 pr-1 pb-10 h-full  relative home">
-        <p className="w-6/12 text-sm dark:text-clr-bg-lightest-offset text-clr-bg-darker-offset md:text-base py-7">
+        <p className="w-6/12 text-sm  dark:text-clr-bg-lightest-offset text-clr-bg-darker-offset md:text-base py-7">
           building smart, simple &#38; scalable solutions
         </p>
         <h1 className="text-5xl dark:text-white text-clr-bg hero-header py-4 md:text-6xl font-semibold md:font-bold">
@@ -37,11 +37,11 @@ const Hero = ({ checkedTheme }) => {
           </p>
         </div>
         <div className="relative flex items-end justify-between w-full h-[22rem]">
-          <p className="w-6/12 text-right md:text-left dark:text-white text-clr-bg origin-top-left top-full left-0 -rotate-90 text-small md:text-lg">
+          <p className="w-6/12 mb-16 md:mb-0 text-right md:text-left dark:text-white text-clr-bg origin-top-left top-full left-0 -rotate-90 text-small md:text-lg">
             self-taught dev
           </p>
           <div className="absolute top-0 right-0 w-full max-w-xs">
-            {checkedTheme && (
+            {bgColor === "dawn" && (
               <div className="relative">
                 <img
                   src={sun}
@@ -61,7 +61,7 @@ const Hero = ({ checkedTheme }) => {
                 />
               </div>
             )}
-            {!checkedTheme && (
+            {bgColor === "dusk" && (
               <div className="relative">
                 <img
                   src={moon}
