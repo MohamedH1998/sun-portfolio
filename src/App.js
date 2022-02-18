@@ -1,7 +1,7 @@
 import "./App.css"
 import React, { useState, useEffect } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import ReactGa from "react-ga"
+import ReactGA from "react-ga"
 import Nav from "./components/Nav/Nav"
 import BlogsNav from "./components/Nav/BlogsNav"
 
@@ -19,8 +19,8 @@ function App() {
     document.documentElement.classList.contains("dark") ? "dusk" : "dawn"
   )
   useEffect(() => {
-    ReactGa.initialize("G-6HKYM3Q1H5")
-    ReactGa.pageview(window.location.pathname + window.location.search)
+    ReactGA.initialize("G-6HKYM3Q1H5")
+    ReactGA.pageview(window.location.pathname + window.location.search)
   }, [])
 
   const handleThemeChange = () => {
