@@ -1,9 +1,16 @@
 import React from "react"
 import photo from "../images/techstack.png"
-
+import { Helmet } from "react-helmet"
 const FirstRole = () => {
   return (
     <div>
+      <Helmet>
+        <title>My first developer role</title>
+        <meta
+          name="description"
+          content="Sharing the process I took to land my first developer role, including learning resources and useful blogs."
+        />
+      </Helmet>
       <section className="pb-6">
         <p>
           I have finally landed a developer role and after sharing the news with

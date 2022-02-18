@@ -10,10 +10,15 @@
   transition: 300ms linear all;
 }
 
-.stylo {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+.dawn .toggle-bg:after {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 202 21 / var(--tw-bg-opacity));
+  border-color: darkkhaki;
+}
+input:checked + .toggle-bg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(47, 47, 110);
+  border-color: rgb(32, 32, 75);
 }
 #slider {
   position: absolute;

@@ -1,8 +1,15 @@
 import React from "react"
-
+import { Helmet } from "react-helmet"
 const Motivations = () => {
   return (
     <div>
+      <Helmet>
+        <title>Motivations</title>
+        <meta
+          name="description"
+          content="A dive into my motivations in wanting to becoming a developer."
+        />
+      </Helmet>
       <p className="">
         So, my aim for this post was to see how well I could romanticise the
         role of a developer and the tech industry as a whole. These are my

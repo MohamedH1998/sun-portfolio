@@ -1,8 +1,15 @@
 import React from "react"
-
+import { Helmet } from "react-helmet"
 const Natural = () => {
   return (
     <div>
+      <Helmet>
+        <title>Natural</title>
+        <meta
+          name="description"
+          content="an exploration of the relationship with Nature through a review of Alan Levinovitz' book Natural: The Seductive Myth of Nature’s Goodness."
+        />
+      </Helmet>
       <section className="pb-6">
         <h5 className="">
           <i>'Do what comes naturally'</i>

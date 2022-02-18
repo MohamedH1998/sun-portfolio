@@ -1,8 +1,15 @@
 import React from "react"
-
+import { Helmet } from "react-helmet"
 const turningPoint = () => {
   return (
     <div>
+      <Helmet>
+        <title>My first developer role</title>
+        <meta
+          name="description"
+          content="Sharing the process I took to land my first developer role, including learning resources and useful blogs."
+        />
+      </Helmet>
       <p className="pb-2">
         So, where to begin. I am a Forensic Science grad working in biotech,
         who's looking to transition into a developer role (yes, I know). I
