@@ -9,7 +9,10 @@
 
   transition: 300ms linear all;
 }
-
+.toggle-bg:after {
+  height: 1.75rem;
+  width: 1.75rem;
+}
 .dawn .toggle-bg:after {
   --tw-bg-opacity: 1;
   background-color: rgb(250 202 21 / var(--tw-bg-opacity));
@@ -19,6 +22,10 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(47, 47, 110);
   border-color: rgb(32, 32, 75);
+}
+
+.input:checked + .toggle-bg:after {
+  transform: translateX(170%);
 }
 #slider {
   position: absolute;

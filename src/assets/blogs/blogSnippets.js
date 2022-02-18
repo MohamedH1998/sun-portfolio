@@ -32,7 +32,7 @@ const blogSnippets = [
     image:
       "https://images.unsplash.com/photo-1637998450975-15193338ee93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80",
     tagline: [
-      "an exploration of the relationship with Nature through a review of Alan Levinovitz' book Natural: ",
+      "An exploration of the relationship with Nature through a review of Alan Levinovitz' book Natural: ",
       <i>The Seductive Myth of Nature’s Goodness.</i>
     ]
   },
