@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { VscCircleLargeFilled } from "react-icons/vsc"
 import { SiDwavesystems } from "react-icons/si"
-import { BsFillMoonFill } from "react-icons/bs"
-import { BsFillSunFill } from "react-icons/bs"
 import { Link } from "react-router-dom"
 
 import "./Nav.css"
