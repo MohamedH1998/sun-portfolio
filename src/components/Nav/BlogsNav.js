@@ -36,10 +36,12 @@ const BlogsNav = ({ bgColor, handleThemeChange }) => {
               type="checkbox"
               onClick={() => handleThemeChange()}
               id="toggle-example"
-              class="sr-only"
+              class="sr-only w-full"
               checked={bgColor === "dusk"}
             />
-            <div class="w-11 h-6 bg-blue-300 rounded-full border border-blue-400 toggle-bg "></div>
+            <div
+              class={`w-20 h-8 bg-blue-300 rounded-full border border-blue-400 toggle-bg`}
+            ></div>
           </label>
         </i>
         <span

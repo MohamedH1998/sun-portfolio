@@ -39,7 +39,9 @@ const Nav = ({ bgColor, handleThemeChange }) => {
               class="sr-only w-full"
               checked={bgColor === "dusk"}
             />
-            <div class="w-20 h-8 bg-blue-300 rounded-full border border-blue-400 toggle-bg "></div>
+            <div
+              class={`w-20 h-8 bg-blue-300 rounded-full border border-blue-400 toggle-bg`}
+            ></div>
           </label>
         </i>
         <span

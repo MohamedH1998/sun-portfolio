@@ -13,10 +13,14 @@
   height: 1.75rem;
   width: 1.75rem;
 }
+
 .dawn .toggle-bg:after {
   --tw-bg-opacity: 1;
   background-color: rgb(250 202 21 / var(--tw-bg-opacity));
   border-color: darkkhaki;
+}
+.dusk .toggle-bg:after {
+  left: 1.25rem;
 }
 input:checked + .toggle-bg {
   --tw-bg-opacity: 1;
