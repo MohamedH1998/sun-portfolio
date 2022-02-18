@@ -19,7 +19,7 @@ function App() {
     document.documentElement.classList.contains("dark") ? "dusk" : "dawn"
   )
   useEffect(() => {
-    ReactGa.initialize(process.env.REACT_APP_GA_TOKEN)
+    ReactGa.initialize("G-6HKYM3Q1H5")
     ReactGa.pageview(window.location.pathname + window.location.search)
   }, [])
 
