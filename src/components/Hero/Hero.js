@@ -6,7 +6,7 @@ import { FiChevronDown } from "react-icons/fi"
 import "./Hero.css"
 const Hero = ({ bgColor }) => {
   return (
-    <div className="relative flex justify-center items-center w-screen">
+    <div className="relative flex justify-center items-center w-screen overflow-hidden">
       <div className="flex top-full flex-col md:w-9/12 items-start justify-start pl-10 pr-1 pb-10 h-full  relative home">
         <p className="w-6/12 text-sm  dark:text-clr-bg-lightest-offset text-clr-bg-darker-offset md:text-base py-7">
           building smart, simple &#38; scalable solutions
