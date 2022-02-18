@@ -1,18 +1,10 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "react-scroll"
 
 import { FiChevronDown } from "react-icons/fi"
 
-import moon from "../../assets/images/moon.png"
-import sun from "../../assets/images/sun.png"
-
 import "./Hero.css"
 const Hero = ({ bgColor }) => {
-  const [loaded1, setLoaded1] = useState(false)
-  const [loaded2, setLoaded2] = useState(false)
-  const [loaded3, setLoaded3] = useState(false)
-  const [loaded4, setLoaded4] = useState(false)
-
   return (
     <div className="relative flex justify-center items-center w-screen">
       <div className="flex top-full flex-col md:w-9/12 items-start justify-start pl-10 pr-1 pb-10 h-full  relative home">
@@ -44,19 +36,13 @@ const Hero = ({ bgColor }) => {
             {bgColor === "dawn" && (
               <div className="relative">
                 <img
-                  src={sun}
-                  onLoad={() => setLoaded1(true)}
-                  className={`slide-out-tl  absolute top-0 object-cover smooth-image image-${
-                    loaded1 ? "visible" : "hidden"
-                  } left-12 md:left-0 w-10/12 md:w-full `}
+                  src="https://ik.imagekit.io/momito/tr:w-600/sun_32KS8__YU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1645212367059"
+                  className="slide-out-tl  absolute top-0 object-cover left-12 md:left-0 w-10/12 md:w-full"
                   alt="self"
                 />
                 <img
-                  src={moon}
-                  onLoad={() => setLoaded2(true)}
-                  className={`slide-in-br absolute top-0 object-cover smooth-image image-${
-                    loaded2 ? "visible" : "hidden"
-                  } left-12 md:left-0 w-10/12 md:w-full `}
+                  src="https://ik.imagekit.io/momito/tr:w-600/moon_Hd94QIPBG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1645212365469"
+                  className="slide-in-br absolute top-0 object-cover left-12 md:left-0 w-10/12 md:w-full"
                   alt="self"
                 />
               </div>
@@ -64,19 +50,13 @@ const Hero = ({ bgColor }) => {
             {bgColor === "dusk" && (
               <div className="relative">
                 <img
-                  src={moon}
-                  onLoad={() => setLoaded3(true)}
-                  className={`slide-out-tl  absolute top-0 object-cover smooth-image image-${
-                    loaded3 ? "visible" : "hidden"
-                  } left-12 md:left-0 w-10/12 md:w-full `}
+                  src="https://ik.imagekit.io/momito/tr:w-600/moon_Hd94QIPBG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1645212365469"
+                  className="slide-out-tl  absolute top-0 object-cover left-12 md:left-0 w-10/12 md:w-full"
                   alt="self"
                 />
                 <img
-                  src={sun}
-                  onLoad={() => setLoaded4(true)}
-                  className={`slide-in-br absolute top-0 object-cover smooth-image image-${
-                    loaded4 ? "visible" : "hidden"
-                  } left-12  md:left-0 w-10/12 md:w-full `}
+                  src="https://ik.imagekit.io/momito/tr:w-600/sun_32KS8__YU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1645212367059"
+                  className="slide-in-br absolute top-0 object-cover left-12  md:left-0 w-10/12 md:w-full"
                   alt="self"
                 />
               </div>

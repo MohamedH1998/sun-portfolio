@@ -13,7 +13,6 @@
 body {
   background-color: #0b0908;
   max-width: 100vw;
-  overflow-x: hidden;
 }
 .dusk {
   -webkit-transition: background-color 3s ease-out;

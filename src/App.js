@@ -1,7 +1,7 @@
 import "./App.css"
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-
+import ReactGa from "react-ga"
 import Nav from "./components/Nav/Nav"
 import BlogsNav from "./components/Nav/BlogsNav"
 
@@ -18,6 +18,10 @@ function App() {
   const [bgColor, setBgColor] = useState(
     document.documentElement.classList.contains("dark") ? "dusk" : "dawn"
   )
+  useEffect(() => {
+    ReactGa.initialize(process.env.REACT_GA_TOKEN)
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  }, [])
 
   const handleThemeChange = () => {
     if (bgColor === "dawn") {

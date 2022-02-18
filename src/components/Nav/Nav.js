@@ -13,15 +13,13 @@ const Nav = ({ bgColor, handleThemeChange }) => {
 
   useEffect(() => {
     click
-      ? (document.body.style.overflow = "hidden")
-      : (document.body.style.overflow = "unset")
+      ? (document.body.style.overflowX = "hidden")
+      : (document.body.style.overflowX = "unset")
   }, [click])
 
   return (
     <div
-      className={`sticky top-0 flex items-center justify-start w-screen z-50 ${
-        !click ? "overflow-hidden" : ""
-      }`}
+      className={`sticky top-0 ${bgColor} flex items-center justify-start w-screen z-50`}
     >
       <div className="flex justify-between w-full h-full px-10">
         <i className="flex text-base md:text-3xl no-underline text-clr-skin my-7 justify-self-start ">
@@ -29,18 +27,20 @@ const Nav = ({ bgColor, handleThemeChange }) => {
         </i>
         <i className="dark:text-white cursor-pointer text-clr-bg flex justify-center items-center text-2xl md:text-3xl">
           <label
-            for="toggle-example"
-            class={`flex relative items-center cursor-pointer ${bgColor}`}
+            htmlFor="toggle-theme"
+            className={`flex relative items-center cursor-pointer ${
+              bgColor === "dusk" ? "dusk-toggle" : "dawn-toggle"
+            }`}
           >
             <input
               type="checkbox"
-              onClick={() => handleThemeChange()}
-              id="toggle-example"
-              class="sr-only w-full"
+              onChange={() => handleThemeChange()}
+              id="toggle-theme"
+              className="sr-only w-full"
               checked={bgColor === "dusk"}
             />
             <div
-              class={`w-20 h-8 bg-blue-300 rounded-full border border-blue-400 toggle-bg`}
+              className={`w-14 h-6 bg-blue-300 rounded-full border border-white toggle-bg`}
             ></div>
           </label>
         </i>
