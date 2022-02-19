@@ -26,14 +26,14 @@ const blogSnippets = [
   {
     id: "2",
     topic: "Interests",
-    title: ["Review: ", <i>Natural</i>],
+    title: ["review: ", <i>natural</i>],
     date: "31/01/2021",
     readTime: "5 mins",
     image:
       "https://images.unsplash.com/photo-1637998450975-15193338ee93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80",
     tagline: [
-      "An exploration of the relationship with Nature through a review of Alan Levinovitz' book Natural: ",
-      <i>The Seductive Myth of Nature’s Goodness.</i>
+      "an exploration of the relationship with Nature through a review of Alan Levinovitz' book Natural: ",
+      <i>the Seductive Myth of Nature’s Goodness.</i>
     ]
   },
   {
@@ -45,7 +45,7 @@ const blogSnippets = [
     image:
       "https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
     tagline:
-      "Sharing the process I took to land my first developer role, including learning resources and useful blogs."
+      "sharing the process I took to land my first developer role, including learning resources and useful blogs."
   }
 ]
 

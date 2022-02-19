@@ -11,7 +11,7 @@ const FirstRole = () => {
           content="Sharing the process I took to land my first developer role, including learning resources and useful blogs."
         />
       </Helmet>
-      <section className="pb-6">
+      <section className="pb-6 md:pb-10 md:text-3xl">
         <p>
           I have finally landed a developer role and after sharing the news with
           some friends, I got questions about what I had done to land the role.
@@ -21,8 +21,8 @@ const FirstRole = () => {
           helps demystify the whole process.
         </p>
       </section>
-      <section className="pb-6">
-        <h5 className=" pb-4 text-2xl ">Content</h5>
+      <section className="pb-6 md:pb-10 md:text-3xl">
+        <h5 className=" pb-4 text-2xl md:text-4xl md:text-5xl ">Content</h5>
         <ol className="list-decimal list-inside">
           <li>Is coding for me?</li>
           <li>Coding is for me, now what?</li>
@@ -34,8 +34,8 @@ const FirstRole = () => {
           <li>Networking and applying for roles</li>
         </ol>
       </section>
-      <section className="pb-6">
-        <h5 className=" pb-4 text-2xl">Is coding for me?</h5>
+      <section className="pb-6 md:pb-10 md:text-3xl">
+        <h5 className=" pb-4 text-2xl md:text-4xl">Is coding for me?</h5>
         <p className="">
           There were a few misconceptions I had when I was looking to start
           learning how to code, namely having to be a maths wiz, however, most
@@ -53,8 +53,10 @@ const FirstRole = () => {
           was beginner friendly as it is written quite similarly to English.
         </p>
       </section>
-      <section className="pb-6">
-        <h5 className=" pb-4 text-2xl">Coding is for me, now what?</h5>
+      <section className="pb-6 md:pb-10 md:text-3xl">
+        <h5 className=" pb-4 text-2xl md:text-4xl">
+          Coding is for me, now what?
+        </h5>
         <p className="">
           After watching YouTube videos, reading blogs and posts on
           r/cscareerquestions about people who have made the transition into
@@ -77,8 +79,8 @@ const FirstRole = () => {
           I started with C. <strong>[HIGHLY RECOMMEND]</strong>.
         </p>
       </section>
-      <section className="pb-6">
-        <h5 className=" pb-4 text-2xl">
+      <section className="pb-6 md:pb-10 md:text-3xl">
+        <h5 className=" pb-4 text-2xl md:text-4xl">
           3. I think I have a decent grasp on computer science fundamentals,
           what kind of developer/engineer do I want to be?
         </h5>
@@ -114,17 +116,17 @@ const FirstRole = () => {
       </section>
       <div className="pb-4">
         <img src={photo} className="mb-2" alt="" />
-        <p className="italic text-small">
+        <p className="italic text-small md:pb-10 md:text-2xl">
           This is a table I made on notion, noting the job title, tech stack and
           specific requirements along with the link to the job post (feel free
           to drop me message if you want the table to us for yourself).
         </p>
       </div>
       <section className="pb-4">
-        <h5 className=" pb-4 text-2xl">
+        <h5 className=" pb-4 text-2xl md:text-4xl">
           Deciding on what to learn and how to learn it.
         </h5>
-        <p className="">
+        <p className="pb-6 md:pb-10 md:text-3xl">
           Whilst there are a lot of free resources online, I felt that I would
           benefit a lot more if I bought a Udemy course, especially since I
           enjoyed the Python one so much. As I decided on the Web Development
@@ -137,8 +139,8 @@ const FirstRole = () => {
             Web Developer Bootcamp
           </a>{" "}
           after having compared it with job descriptions for web dev roles.
-          <br></br>
-          <br></br>
+        </p>
+        <p className="pb-6 md:pb-10 md:text-3xl">
           Half-way through the course, I ended up getting really stuck at one
           section, and after rewatching all the lectures 3 times, I decided that
           should supplement this course with another{" "}
@@ -150,8 +152,8 @@ const FirstRole = () => {
           </a>
           . The contents are very similar and I wouldnt recommend doing both, I
           would probably just do the second (Dr Yu&#39;s course).
-          <br></br>
-          <br></br>
+        </p>
+        <p className="pb-6 md:pb-10 md:text-3xl">
           Again, towards the middle of this course when the JavaScript was
           picking up, I felt as though I wasnt fully understanding what was
           going on. I then put the other two courses on pause and started a{" "}
@@ -168,8 +170,10 @@ const FirstRole = () => {
           helpful <strong>[HIGHLY RECOMMEND]</strong>.
         </p>
       </section>
-      <section className="pb-6">
-        <h5 className=" pb-4 text-2xl">Networking and Applying for Roles</h5>
+      <section className="pb-6 md:pb-10 md:text-3xl">
+        <h5 className=" pb-4 text-2xl md:text-4xl">
+          Networking and Applying for Roles
+        </h5>
         <p className="pb-4">
           Another commonly given advice is to apply for jobs before youre ready.
           Since I knew no one in the industry that I could turn to for advice

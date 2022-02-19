@@ -10,7 +10,6 @@ import Portfolio from "./components/Portfolio/Portfolio"
 import Blogs from "./components/Blogs/Blogs"
 import Lost from "./components/Lost/Lost"
 import BlogPosts from "./components/BlogPosts/BlogPosts"
-import Footer from "./components/Footer/Footer"
 import Stars from "./components/Background/Stars"
 
 function App() {
@@ -45,7 +44,6 @@ function App() {
                 <Profile />
                 <Portfolio />
                 <Blogs />
-                <Footer />
               </>
             }
           />

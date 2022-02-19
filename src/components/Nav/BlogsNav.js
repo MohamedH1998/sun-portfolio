@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react"
 import { VscCircleLargeFilled } from "react-icons/vsc"
 import { SiDwavesystems } from "react-icons/si"
 import { Link } from "react-router-dom"
-
 import "./Nav.css"
 const BlogsNav = ({ bgColor, handleThemeChange }) => {
   const [click, setClick] = useState(false)
@@ -13,8 +12,8 @@ const BlogsNav = ({ bgColor, handleThemeChange }) => {
 
   useEffect(() => {
     click
-      ? (document.body.style.overflow = "hidden")
-      : (document.body.style.overflow = "unset")
+      ? (document.body.style.overflowX = "hidden")
+      : (document.body.style.overflowX = "unset")
   }, [click])
 
   return (
@@ -62,8 +61,8 @@ const BlogsNav = ({ bgColor, handleThemeChange }) => {
           click ? "slide-in" : "slide-out"
         }`}
       >
-        <Link to="/">
-          <li className="mb-2 cursor-pointer text-2xl pt-12 pr-8 font-bold tracking-tight text-gray-900 dark:text-white">
+        <Link onClick={() => handleClick()} to="/">
+          <li className="mb-2 cursor-pointer md:text-4xl text-2xl pt-12 pr-8 font-bold tracking-tight text-gray-900 dark:text-white">
             Home
           </li>
         </Link>
