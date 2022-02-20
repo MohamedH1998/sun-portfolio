@@ -8,7 +8,7 @@ import "./BlogPosts"
 
 const renderBlog = (id, currentBlog) => {
   return (
-    <div className="relative flex flex-row justify-center items-start h-full min-h-screen w-screen">
+    <div className="relative flex flex-row justify-center items-start h-full min-h-screen w-screen dark:bg-clr-bg">
       <div className="text-clr-bg dark:text-white py-6 flex flex-col w-9/12 ">
         <h1 className="text-4xl md:text-6xl font-base py-8 pr-4">
           {currentBlog.title}
