@@ -8,7 +8,7 @@ const turningPoint = () => {
         <meta name="description" content="Deciding to move into tech." />
       </Helmet>
       <section className="pb-6">
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           So, where to begin. I am a Forensic Science grad working in biotech,
           who's looking to transition into a developer role (yes, I know). I
           thought that it would be really interesting to document my journey
@@ -20,7 +20,7 @@ const turningPoint = () => {
           </i>{" "}
           (the name of my previous site).
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           Great question. Most people are familiar with the 10,000 hour rule,
           which goes something like 'to achieve mastery in a craft, you must
           dedicate 10,000 hours of deliberate practise to it'. Whilst this may
@@ -42,7 +42,7 @@ const turningPoint = () => {
           tech landscape to identify exactly what sort of developer I want to
           be.
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           Starting again is somewhat daunting. The idea that your efforts in
           directing your career trajectory has been futile is no fun. I've spent
           3 years doing a Forensic Science degree, 1.5 years in the biotech
@@ -58,7 +58,7 @@ const turningPoint = () => {
           dead-end, you'd assume that I would act on that, right? Well, that's
           the plan.
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           This is going to be <i>fun.</i>
         </p>
       </section>

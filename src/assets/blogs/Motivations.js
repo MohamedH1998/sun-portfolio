@@ -11,20 +11,20 @@ const Motivations = () => {
         />
       </Helmet>
       <section className="pb-6">
-        <p className="pb-4 md:pb-10 md:text-3xl">
+        <p className="pb-4 md:pb-10 md:text-xl">
           So, my aim for this post was to see how well I could romanticise the
           role of a developer and the tech industry as a whole. These are my
           assumptions coming into and exploring the field, it will be
           interesting to see how my perspective changes over time.
         </p>
-        <p className="pb-4 md:pb-10 md:text-3xl">
+        <p className="pb-4 md:pb-10 md:text-xl">
           In the world of biotech, my experience has been that being able to
           start a project is essentially impossible without decades of
           experience, a lot of capital, infrastructure, and permission behind
           you (let's call these <i>ECIP</i>).
         </p>
 
-        <p className="pb-4 md:pb-10 md:text-3xl">
+        <p className="pb-4 md:pb-10 md:text-xl">
           The tech landscape, in contrast, seems to be the complete opposite of
           this, from a developer's perspective at least. Developing software
           requires a lot less capital and infrastructure in comparison to a
@@ -34,11 +34,11 @@ const Motivations = () => {
           here seem to be: a. your ability to code, and b. your ability to
           generate good ideas.
         </p>
-        <p className="pb-4 md:pb-10 md:text-3xl">
+        <p className="pb-4 md:pb-10 md:text-xl">
           Whilst I have no good ideas, having the option to pursue an idea at my
           own whim is something that I like the sound of.
         </p>
-        <p className="pb-4 md:pb-10 md:text-3xl">
+        <p className="pb-4 md:pb-10 md:text-xl">
           Keeping with the theme of iteration, I mentioned in the previous post
           that the most successful people are those who learn quickly from
           failure. I believe that this framework of thinking goes hand in hand
@@ -49,7 +49,7 @@ const Motivations = () => {
           within a year is much more than that of a process developer in
           biomanufacturing.
         </p>
-        <p className="pb-4 md:pb-10 md:text-3xl">
+        <p className="pb-4 md:pb-10 md:text-xl">
           Another reason why being a developer is attractive to me is that the
           upper limits of the role seem to be only dependent on my ability as a
           developer. For a second, let's forget all the other factors that are
@@ -65,12 +65,12 @@ const Motivations = () => {
           to say, a career in the former would be much more fruitful.
         </p>
       </section>
-      <section className="pb-4 md:pb-10 md:text-3xl">
-        <p className="mb-2 md:pb-10 md:text-3xl">
+      <section className="pb-4 md:pb-10 md:text-xl">
+        <p className="mb-2 md:pb-4 md:text-xl">
           These reasons that I have laid out are the ones that I think are not
           the most intuitive, other reasons include:
         </p>
-        <ul className="md:pb-10 md:text-3xl list-decimal list-inside">
+        <ul className="md:pb-10 md:text-xl list-decimal list-inside">
           <li>
             Continuous Development- constantly at the forefront of knowledge
           </li>

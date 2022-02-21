@@ -11,18 +11,18 @@ const Natural = () => {
         />
       </Helmet>
       <section className="pb-6">
-        <h5 className="md:text-4xl font-semibold pb-4">
+        <h5 className="md:text-xl font-semibold pb-4">
           <i>'Do what comes naturally'</i>
         </h5>
-        <h5 className="md:text-4xl font-semibold pb-4">
+        <h5 className="md:text-xl font-semibold pb-4">
           <i>'It&#39;s only natural'</i>
         </h5>
-        <h5 className="md:text-4xl font-semibold pb-4">
+        <h5 className="md:text-xl font-semibold pb-4">
           <i>'Let nature run its course'</i>
         </h5>
       </section>
       <section className="pb-6">
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           We all accept these phrases and those that are similar as being
           logically sound without question. If something comes naturally, then
           surely it must be right, and if it was going to happen anyway, then it
@@ -30,7 +30,7 @@ const Natural = () => {
           acceptance that gut feelings are ignored at our own peril and a
           mother&#39;s intuition is always right.
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           Knowingly or unknowingly, most of us believe in the importance and the
           inherent goodness of nature, but where does this belief come from and
           how reasonable is it? With many &#39;unnatural&#39; technological
@@ -41,10 +41,10 @@ const Natural = () => {
         </p>
       </section>
       <section className="pb-6">
-        <h5 className="md:text-4xl font-semibold pb-4">
+        <h5 className="md:text-xl font-semibold pb-4">
           Nature/Natural in different traditions
         </h5>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           Levinovitz makes mention of how the inherent goodness of nature is
           consistent with most traditions over time. The Taoists of ancient
           China spoke of the significance of ziran, the “self-so”, which
@@ -55,7 +55,7 @@ const Natural = () => {
           by asserting their will is to interrupt the ideal state of existence.
           This disruption isn&#39;t without consequence.
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           Nature/natural plays an important role in Islam. Muslims believe that
           all humans are born with the fitrah (primordial nature) which can also
           be translated to natural disposition or tendency. Intrinsic to this is
@@ -65,10 +65,10 @@ const Natural = () => {
         </p>
       </section>
       <section className="pb-6">
-        <h5 className="md:text-4xl font-semibold pb-4">
+        <h5 className="md:text-xl font-semibold pb-4">
           Problems with the term
         </h5>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           Beyond the subscribers of ancient traditions and religious beliefs,
           nature seems to play an important role in most of our day to day
           lives, from the foods we eat and our behavioural habits to the use of
@@ -76,7 +76,7 @@ const Natural = () => {
           naturally aligned our political, economic, and social systems are the
           better.
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           The issue with this, as Levinovitz rightfully points out, is that
           there are many natural occurring phenomena that are not good (maternal
           and infant mortality, disease etc), therefore using nature
@@ -87,7 +87,7 @@ const Natural = () => {
           cannot be disobeyed, he argues that Nature&#39;s Commandments cannot
           be ignored.
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           I used to scorn at anti-vaxxers and didn&#39;t understand their
           sentiment, however, after reading this book it has become apparent to
           me that we all subscribe to the axiom that is &#39;what&#39;s natural
@@ -101,8 +101,8 @@ const Natural = () => {
         </p>
       </section>
       <section className="pb-6">
-        <h5 className="md:text-4xl font-semibold pb-4">Natural Births</h5>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <h5 className="md:text-xl font-semibold pb-4">Natural Births</h5>
+        <p className="pb-2 md:pb-4 md:text-xl">
           Natural births highlight how what&#39;s natural is synonymous with
           doing what&#39;s right. Proponents of natural births speak of the
           blissful days of yesteryear when children were born without the need
@@ -110,7 +110,7 @@ const Natural = () => {
           of how following their instincts seem to work for them and also point
           to how women throughout history didn&#39;t require medical assistance.
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           Unfortunately, it&#39;s easy for the unexamined past to resemble a
           utopia, but with the slightest bit of inspection, we can come to learn
           that that's the furthest from the truth one. Maternal mortality in the
@@ -119,7 +119,7 @@ const Natural = () => {
           attributed to transcending nature and implementing the
           &#39;unnatural&#39; practices which saw advances in healthcare.
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           In the process of medicalising pregnancy to ensure safety, Levinovitz
           mentions how many mothers felt that this transformed a miracle into a
           disease and treated the miracle bearers as ill patients. The
@@ -130,16 +130,14 @@ const Natural = () => {
         </p>
       </section>
       <section className="pb-6">
-        <h5 className="md:text-4xl font-semibold pb-4">
-          Natural at what cost?
-        </h5>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <h5 className="md:text-xl font-semibold pb-4">Natural at what cost?</h5>
+        <p className="pb-2 md:pb-4 md:text-xl">
           Levinovitz mentions how vanilla became a staple item in every
           household from when it was first brought to Europe after the invasion
           of the Americas, to the discovery of artificial insemination by the
           12-year-old Edmond Albius some 200 years later.
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           This process of artificial insemination of vanilla is by
           hand-pollinating every individual flower, an endeavour so expensive
           that most vanilla is derived from petrochemicals. The idea that
@@ -151,7 +149,7 @@ const Natural = () => {
           manipulation e.g., heating, cooling, mixing etc. I tried to find out
           exactly where I draw this arbitrary line and had no success.
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           Producing vanilla from petrochemicals not only democratises it, but
           also limits the number of children on plantations labouring to make
           &#39;natural&#39; vanilla so I can feel better about what I eat. Then
@@ -160,8 +158,8 @@ const Natural = () => {
         </p>
       </section>
       <section className="pb-6">
-        <h5 className="md:text-4xl font-semibold pb-4">A privilege</h5>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <h5 className="md:text-xl font-semibold pb-4">A privilege</h5>
+        <p className="pb-2 md:pb-4 md:text-xl">
           Many around the world would leap at the opportunity to have access to
           cheap foods, even if its origin wasn&#39;t &#39;natural&#39; and many
           women around the global would give anything to have access to
@@ -173,7 +171,7 @@ const Natural = () => {
           confusion when he was asked whether he was happy having electricity,
           responding yes as they could now see at night."
         </p>
-        <p className="pb-2 md:pb-10 md:text-3xl">
+        <p className="pb-2 md:pb-4 md:text-xl">
           The modern dilemma of whether nature should be transcended seems to be
           a luxury problem that only those who live in comfort have to worry
           about. Tackling this requires gratitude for the unnatural advances
@@ -181,7 +179,7 @@ const Natural = () => {
           and serious reflections on our personal relationship with nature."
         </p>
       </section>
-      <p className="pb-2 md:pb-10 md:text-3xl">
+      <p className="pb-2 md:pb-4 md:text-xl">
         Anyway, it&#39;s a cool book, highly recommend.
       </p>
     </div>
