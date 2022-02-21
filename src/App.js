@@ -31,7 +31,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className={`${bgColor} relative`}>
+      <div className={`${bgColor} relative w-screen`}>
         {bgColor === "dusk" ? <Stars /> : ""}
         <Routes>
           <Route
