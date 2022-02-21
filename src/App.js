@@ -40,10 +40,12 @@ function App() {
             element={
               <>
                 <Nav bgColor={bgColor} handleThemeChange={handleThemeChange} />
-                <Hero bgColor={bgColor} />
-                <Profile />
-                <Portfolio />
-                <Blogs />
+                <div className="overflow-x-hidden">
+                  <Hero bgColor={bgColor} />
+                  <Profile />
+                  <Portfolio />
+                  <Blogs />
+                </div>
               </>
             }
           />
@@ -56,7 +58,9 @@ function App() {
                   bgColor={bgColor}
                   handleThemeChange={handleThemeChange}
                 />
-                <BlogPosts />
+                <div className="overflow-x-hidden">
+                  <BlogPosts />
+                </div>
               </>
             }
           />
@@ -65,8 +69,13 @@ function App() {
             path="*"
             element={
               <>
-                <Nav bgColor={bgColor} handleThemeChange={handleThemeChange} />
-                <Lost />
+                <BlogsNav
+                  bgColor={bgColor}
+                  handleThemeChange={handleThemeChange}
+                />
+                <div className="overflow-x-hidden">
+                  <Lost />
+                </div>
               </>
             }
           />

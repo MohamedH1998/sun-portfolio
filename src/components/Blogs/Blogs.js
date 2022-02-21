@@ -22,10 +22,10 @@ const Blogs = () => {
   return (
     <div className="blogs relative flex justify-center items-start h-full w-screen">
       <div className="w-9/12 flex md:w-full flex-col">
-        <h1 className="text-5xl md:mr-20 md:ml-64 dark:text-white text-clr-bg hero-header py-7">
+        <h1 className="text-5xl md:mr-20 md:ml-36 dark:text-white text-clr-bg hero-header py-7">
           Musings
         </h1>
-        <hr className="w-9/12 md:mr-20 md:ml-64 border-2 border-clr-skin" />
+        <hr className="w-9/12 md:mr-20 md:ml-36 border-2 border-clr-skin" />
         <div className="flex flex-wrap justify-center py-10 md:mx-10">
           {reverseOrderofBlogSnippets}
         </div>

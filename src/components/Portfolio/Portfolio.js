@@ -6,10 +6,10 @@ const Portfolio = () => {
   return (
     <div className="relative flex flex-row justify-center items-start h-full w-screen">
       <div className="w-9/12 md:w-full">
-        <h1 className="portfolio md:mr-20 md:ml-64 text-5xl dark:text-white text-clr-bg hero-header py-7">
+        <h1 className="portfolio md:mr-20 md:ml-36 text-5xl dark:text-white text-clr-bg hero-header py-7">
           Portfolio
         </h1>
-        <hr className="w-full md:w-9/12 md:mr-20 md:ml-64 border-2 border-clr-skin" />
+        <hr className="w-full md:w-9/12 md:mr-20 md:ml-36 border-2 border-clr-skin" />
         <div className="flex flex-wrap justify-center w-full py-10 mt-5">
           {projectsInfo.map((project, i) => (
             <Project

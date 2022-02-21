@@ -8,10 +8,10 @@ const Hero = ({ bgColor }) => {
   return (
     <div className="relative flex justify-center items-center w-screen overflow-hidden">
       <div className="flex top-full flex-col md:w-9/12 items-start justify-start pl-10 pr-1 pb-10 h-full  relative home">
-        <p className="w-6/12 text-sm  dark:text-clr-bg-lightest-offset text-clr-bg-darker-offset md:text-2xl py-7">
+        <p className="w-6/12 text-sm  dark:text-clr-bg-lightest-offset text-clr-bg-darker-offset md:text-lg py-7">
           building smart, simple &#38; scalable solutions
         </p>
-        <h1 className="text-5xl md:text-7xl dark:text-white text-clr-bg hero-header py-4 font-semibold md:font-bold">
+        <h1 className="text-5xl md:text-5xl dark:text-white text-clr-bg hero-header py-4 font-semibold md:font-bold">
           Mohamed Hassan
         </h1>
         <div className="flex items-center justify-between w-full pt-2">
@@ -24,12 +24,12 @@ const Hero = ({ bgColor }) => {
             <FiChevronDown />
           </Link>
 
-          <p className="w-6/12 md:text-2xl text-sm  md:text-center dark:text-clr-bg-lightest-offset text-clr-bg-darker-offset text-small py-7">
+          <p className="w-6/12 md:text-lg text-sm  md:text-center dark:text-clr-bg-lightest-offset text-clr-bg-darker-offset text-small py-7">
             clarity comes from engagement, not thought.
           </p>
         </div>
         <div className="relative flex items-end justify-between w-full h-[22rem]">
-          <p className="w-6/12 mb-16 md:mb-0 text-right md:text-left dark:text-white md:text-2xl text-clr-bg origin-top-left top-full left-0 -rotate-90 text-small ">
+          <p className="w-6/12 mb-16 md:mb-0 text-right md:text-center md:pr-10 dark:text-white md:text-lg text-clr-bg origin-top-left top-full left-0 -rotate-90 text-small ">
             self-taught dev
           </p>
           <div className="absolute top-0 right-0 w-full max-w-xs">
