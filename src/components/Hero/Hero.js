@@ -29,7 +29,7 @@ const Hero = ({ bgColor }) => {
           </p>
         </div>
         <div className="relative flex items-end justify-between w-full h-[22rem]">
-          <p className="w-6/12 mb-16 md:mb-0 text-right md:text-center md:pr-10 dark:text-white md:text-lg text-clr-bg origin-top-left top-full left-0 -rotate-90 text-small ">
+          <p className="w-[260px] text-right lg:pr-16 dark:text-white md:text-lg text-clr-bg origin-top-left top-full left-0 -rotate-90 text-small ">
             self-taught dev
           </p>
           <div className="absolute top-0 right-0 w-full max-w-xs">

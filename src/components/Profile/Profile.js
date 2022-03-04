@@ -17,7 +17,7 @@ const Profile = () => {
         <div className="flex flex-col md:flex-row items-start pt-8 justify-center w-full">
           <div className="flex items-center justify-between w-full pb-8">
             <p className="w-7/12 dark:text-white text-clr-bg text-base md:text-lg py-5">
-              I am a self-taught front developer who enjoys solving problems
+              I am a self-taught dev who enjoys solving problems
               with clean, scalable solutions.
             </p>
             <Link
